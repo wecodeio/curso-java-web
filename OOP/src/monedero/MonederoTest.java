@@ -56,8 +56,8 @@ public class MonederoTest {
 	}
 	@Test
 	public void sacarMasDineroTest() {
-		Monedero miMonedero=new Monedero(50);
-		double esperado=50;
+		Monedero miMonedero=new Monedero(20);
+		double esperado=20;
 		double actual=miMonedero.sacarDinero(100);
 		assertEquals(esperado,actual,0.01);
 	
